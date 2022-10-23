@@ -1,0 +1,45 @@
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title .text {
+    display: flex;
+}
+
+.title .text p {
+    margin: 10px;
+}
+
+.title .mini-img img {
+    width: 10%;
+    width: 32px;
+    height: 32px;
+}
+
+.section-1 .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin: 100px;
+}
+
+.section-1 .main h1 {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.section-1 .main h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+}

@@ -1,0 +1,144 @@
+/* <-------------section-1----------------> */
+/* <-------------section-1----------------> */
+.section-1 {
+    display: flex;
+    align-items: center;
+    height: 700px;
+}
+.section-1 img{
+    border-radius: 20px;
+}
+
+.section-1 .left {
+    display: flex;
+    flex-direction: column;
+}
+.section-1 .left .title{
+    display: flex;
+    align-items: center;
+   
+}
+.section-1 .left .text{
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+}
+.section-1 .left div div{
+    width: 7%;
+}
+
+.section-1 .left div img {
+    width: 32px;
+    height: 32px;
+}
+.section-1 .left .main{
+    width: 100%;
+}
+.section-1 .left .main p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 77%;
+}
+
+.section-1 .left h1{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+}
+.section-1 .left a:after{
+    color:  #F58A07;
+    content: '\2192';
+    padding: 10px
+}
+.section-1 .left a{
+    color: #F58A07;
+}
+/* <-------------section-2-top---------------> */
+/* <-------------section-2-top---------------> */
+
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 1300px;
+
+}
+.section-2 h4{
+    color: #0D1317;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 500;
+}
+.section-2 .main .top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.section-2 .main .top .card{
+    background-color:#EDF7FF;
+    border-radius: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.section-2 .main .top .card div{
+    padding: 30px;
+}
+.section-2 .main .top .card img{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.section-2 .main .top .card div h3{
+    color: #0D1317;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+.section-2 .main .top .card div a{
+    color: #F58A07;
+}
+.section-2 .main .top .card div a:after {
+    padding: 10px;
+    content: '\2192';
+}
+/* <-------------section-2-bottom---------------> */
+/* <-------------section-2-bottom---------------> */
+.section-2 .main .bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+.section-2 .main .bottom .card{
+    background-color: #EDF7FF;
+    border-radius: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.section-2 .main .bottom .card div{
+    padding: 30px;
+}
+.section-2 .main .bottom .card img{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.section-2 .main .bottom .card div h3{
+    color: #0D1317;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+.section-2 .main .bottom .card div a{
+    color: #F58A07;
+}
+.section-2 .main .bottom .card div a:after {
+    padding: 10px;
+    content: '\2192';
+}

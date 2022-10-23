@@ -1,69 +1,9 @@
 
 
 /* <---------------------section-1-------------------> */
-/* <---------------------header-------------------> */
-.header {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.header .Call-to-Actiion {
-    display: flex;
-    justify-content: end;
-}
-
-header a {
-    text-decoration: none;
-
-}
-
-.logo {
-    display: flex;
-    width: 40%;
-}
-
-.logo h1 {
-    color: #063255;
-    font-size: 30px;
-
-}
-
-.nav-items {
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav-items ul {
-    width: 80%;
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
-    list-style: none;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.nav-items ul li {
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav-items a {
-    color: #394149;
-}
-
-.Call-to-Actiion {
-    width: 20%;
-}
-
 /* <---------------------section-1-------------------> */
-/* <---------------------section-1-------------------> */
-
 .section-1 {
-    height: 600px;
+    height: 700px;
     display: flex;
     justify-content: center;
 }
@@ -74,37 +14,10 @@ header a {
     justify-content: center;
 
 }
-
-
-.header-text h1 {
-    color: #1D3444;
-    font-size: 68px;
-    font-weight: 600;
-    margin: 0;
-    line-height: 100%;
-}
-
 .section-1 p {
     color: #5B5B5B;
     font-size: 18px;
 }
-
-.header-text p {
-    width: 80%;
-}
-
-.Call-to-Actiion a {
-    color: #F58A07;
-    background: #F58A071A;
-    border-radius: 31px;
-    padding: 10px;
-
-}
-
-.header-text {
-    width: 100%;
-}
-
 .buttons {
     margin: 30px 20px 30px 0px;
     width: 55%;
@@ -136,6 +49,7 @@ header a {
 .section-1 h2 {
     color: #39414980;
     font-size: 18px;
+    font-weight: 400;
 }
 
 .logos {
@@ -186,6 +100,11 @@ header a {
 
 .section-1-cards .card-1 a {
     color: #F58A07;
+}
+.section-1-cards .card-1 a::after {
+    content:'\2192' ;
+    color: #F58A07;
+    padding: 10px
 }
 
 .section-1-cards .card-1 img {
@@ -270,6 +189,7 @@ h4 {
 .section-4 {
     display: flex;
     justify-content: space-between;
+    min-width: 670px;
 }
 
 .section-4-left {
@@ -277,7 +197,9 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 650px;
+    box-sizing: border-box;
+    padding: 50px 0px 50px 0px;
+    
 }
 
 .section-4-left-foot {
@@ -296,11 +218,12 @@ h4 {
 .section-4-left-text {
     width: 78%;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 30px;
 }
 
 .section-4-left-foot h5 {
+    margin: 0;
     color: #F58A07;
     font-size: 36px;
     font-weight: 600;
@@ -316,7 +239,7 @@ h4 {
 .section-4-left-foot p {
     font-size: 16px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .section-4-right-multiply {
@@ -330,6 +253,13 @@ h4 {
 
 /* <---------------------section-5-------------------> */
 /* <---------------------section-5-------------------> */
+.ribbon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: absolute;
+    width: 1280px;
+}
 
 .section-5 {
     display: flex;
@@ -410,6 +340,7 @@ h4 {
 
 .section-5-main .left a:after {
     content: '\2192';
+    padding: 10px;
 }
 
 /* <---------------------section-6-------------------> */
@@ -430,23 +361,25 @@ h4 {
     background-color: #F58A07;
     justify-content: center;
 }
-.section-6 .right .main{
+
+.section-6 .right .main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-content: space-between;
     height: 250px;
     padding: 128px;
-    
-    
+
+
 }
+
 .section-6 .right h4 {
-    width: 55%;
     font-size: 40px;
     font-weight: 600;
     color: white;
     line-height: 56px;
-    margin: 0px 0px ;
+    margin: 0px 0px;
+    width: 80%;
 }
 
 .section-6 .right a {
@@ -459,5 +392,112 @@ h4 {
     height: 54px;
     border-radius: 31px;
 }
+
 /* <---------------------section-7-------------------> */
 /* <---------------------section-7-------------------> */
+.section-7 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-7 .left {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    justify-content:space-between;
+    align-items: flex-start;
+    height: 350px;
+}
+.section-7 .left p{
+    width: 85%;
+    padding: 0;
+}
+
+.section-7 .left img {
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+}
+.section-7 .left h4{
+    margin: 0;
+    font-weight:500;
+    font-size: 48px;
+    line-height:56px ;
+}
+.section-7 .left .foot{
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+
+.section-7 .left .foot div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+.section-7 .left .foot div h6{
+    color: #063255;
+    margin: 0; 
+    font-size: 24px;
+    font-weight: 400;
+}
+.section-7 .left .foot div a{
+    color: #F58A07;
+}
+.section-7 .right img {
+    width: 620px;
+    height: 500px;
+    
+}
+/* <---------------------section-8-------------------> */
+/* <---------------------section-8-------------------> */
+.section-8{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 800px;
+}
+.section-8 h4{
+    color: #0D1317;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 500;
+}
+.section-8 .main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.section-8 .main .card{
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.section-8 .main .card div{
+    padding: 30px;
+}
+.section-8 .main .card img{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.section-8 .main .card div h3{
+    color: #0D1317;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+.section-8 .main .card div a{
+    color: #F58A07;
+}
+.section-8 .main .card div a:after {
+    padding: 10px;
+    content: '\2192';
+}
+ 
