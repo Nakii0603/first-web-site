@@ -9,6 +9,7 @@
 }
 
 .section-1-left {
+    min-width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,6 +76,7 @@
 }
 
 .section-2-title {
+    min-width: 500px;
     width: 54%;
     display: flex;
     flex-direction: column;
@@ -126,52 +128,53 @@
     justify-content: space-around;
 }
 
-.section-3-title {
+.section-3 .title {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.section-3-title-size {
+.section-3 .title .size {
+    min-width: 1000px;
     width: 100%;
     display: flex;
     align-items: flex-start;
 }
 
-.section-3-title p,
-h4 {
+.section-3 .title p,h4 {
     width: 100%;
 }
 
-.section-3-title-1 {
+.section-3 .title .text {
     width: 50%;
 }
 
-.section-3-title h4 {
+.section-3 .title h4 {
     margin: 0;
     font-size: 36px;
     font-weight: 600;
     line-height: 44px;
 }
 
-.section-3-title p {
+.section-3 .title p {
     margin: 0;
     font-size: 18px;
     line-height: 30px;
 }
 
-.section-3-cards {
+.section-3 .cards {
     display: flex;
     justify-content: space-between;
+    min-width: 1000px;
 }
 
-.section-3-cards .card-2 img {
+.section-3 .cards .card-1 img {
     width: 45px;
     height: 45px;
 }
 
-.section-3-cards .card-2 {
+.section-3 .cards .card-1 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -192,7 +195,8 @@ h4 {
     min-width: 670px;
 }
 
-.section-4-left {
+.section-4 .left {
+    min-width: 500px;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -202,12 +206,12 @@ h4 {
     
 }
 
-.section-4-left-foot {
+.section-4 .left .foot {
     display: flex;
     justify-content: space-between;
 }
 
-.section-4-left h4 {
+.section-4 .left h4 {
     color: #0D1317;
     font-size: 48px;
     font-weight: 600;
@@ -215,14 +219,14 @@ h4 {
     margin: 0;
 }
 
-.section-4-left-text {
+.section-4 .left .text {
     width: 78%;
     font-size: 18px;
     font-weight: 300;
     line-height: 30px;
 }
 
-.section-4-left-foot h5 {
+.section-4 .left .foot h5 {
     margin: 0;
     color: #F58A07;
     font-size: 36px;
@@ -230,26 +234,19 @@ h4 {
     height: 56px;
 }
 
-.section-4-left-foot h4 {
+.section-4 .left .foot h4 {
     color: #0D1317;
     font-size: 24px;
     font-weight: 600;
 }
 
-.section-4-left-foot p {
+.section-4 .left .foot p {
     font-size: 16px;
     line-height: 28px;
     font-weight: 400;
 }
 
-.section-4-right-multiply {
-    position: absolute;
-    background-color: #F58A07;
-    background-blend-mode: multiply;
-    width: 157px;
-    height: 670px;
-    border-radius: 20px 0px 0px 20px;
-}
+
 
 /* <---------------------section-5-------------------> */
 /* <---------------------section-5-------------------> */
@@ -268,6 +265,7 @@ h4 {
 }
 
 .section-5-a {
+    min-width: 1300px;
     display: flex;
 }
 
@@ -346,7 +344,7 @@ h4 {
 /* <---------------------section-6-------------------> */
 /* <---------------------section-6-------------------> */
 .section-6 {
-    border-color: aqua;
+    min-width: 1000px;
     display: flex;
     justify-content: center;
     height: 520px;
@@ -363,6 +361,7 @@ h4 {
 }
 
 .section-6 .right .main {
+    min-width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -403,6 +402,7 @@ h4 {
 }
 
 .section-7 .left {
+    min-width: 500px;
     display: flex;
     flex-direction: column;
     width: 45%;

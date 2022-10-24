@@ -13,6 +13,9 @@ h2{
     color:  #0D1317;
     line-height: 56px;
 }
+.section-1-0{
+    margin-bottom: 0;
+}
 /* <-----------------------------> */
 /* <-----------------------------> */
 .orange{
@@ -22,57 +25,63 @@ h2{
 }
 
 .section-2-or{
-    top: 250px;
-    left: 10px;
     position: relative;
     border-radius: 20px;
-    width: 95px;
-    height: 97px;
+    width: 100px;
+    height: 100px;
     background-color: #f58a07;
-    background-blend-mode: multiply;
+    mix-blend-mode: multiply;
+    left: -50px;
+    top: 130px;
+}
+.section-3-or{
+    position: relative;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #f58a07;
+    mix-blend-mode: multiply;
+    top: 273px;
+    left: 570px;
     
 }
-/* .section-3-or{
-    top: 900px;
-    left: 30px;
-    position: absolute;
-    border-radius: 20px;
-    width: 95px;
-    height: 97px;
-    background-color:#f58a07d0;
-}
 .section-4-or{
-    top: 900px;
-    left: 30px;
-    position: absolute;
+    position: relative;
     border-radius: 20px;
-    width: 95px;
-    height: 97px;
-    background-color:#f58a07d0;
+    width: 100px;
+    height: 100px;
+    background-color: #f58a07;
+    mix-blend-mode: multiply;
+    top: 213px;
+    left: -50px;
+    
+}.section-5-or{
+    position: relative;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #f58a07;
+    mix-blend-mode: multiply;
+    top: 273px;
+    left: 570px;
+    
+}.section-6-or{
+    position: relative;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #f58a07;
+    mix-blend-mode: multiply;
+    top: 350px;
+    left: -50px;
+    
 }
-.section-5-or{
-    top: 900px;
-    left: 30px;
-    position: absolute;
-    border-radius: 20px;
-    width: 95px;
-    height: 97px;
-    background-color:#f58a07d0;
-}
-.section-6-or{
-    top: 900px;
-    left: 30px;
-    position: absolute;
-    border-radius: 20px;
-    width: 95px;
-    height: 97px;
-    background-color:#f58a07d0;
-} */
+
+
 
 /* <-----------------------------> */
 /* <-----------------------------> */
 .page-2 div{
-    margin-top: 40px;
     margin-bottom: 40px;
 }
 
@@ -119,13 +128,15 @@ h2{
 .section-2{
     display: flex;
     align-items: center;
+    
 }
-/* .section-2 img{
+.section-2 .img{
     background-image: url(/images/page2-2-.png);
-    background-blend-mode: multiply;
-    background-color:red;
-} */
+    width:620px;
+    height:550px;
+}
 .section-2 .right{
+    width: 50%;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -155,12 +166,19 @@ h2{
 }
 /* <-------------section-3----------------> */
 /* <-------------section-3----------------> */
-
 .section-3{
     display: flex;
     align-items: center;
 }
+
+.section-3 .img{
+    background-image: url(/images/page-2-3.png);
+    width:620px;
+    height:550px;
+}
+
 .section-3 .left{
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -174,7 +192,13 @@ h2{
     display: flex;
     align-items: center;
 }
+.section-4 .img{
+    background-image: url(/images/page-2-4.png);
+    width:620px;
+    height:550px;
+}
 .section-4 .right{
+    width: 50%;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -208,7 +232,14 @@ h2{
     display: flex;
     align-items: center;
 }
+.section-5 .img{
+    background-image: url(/images/page-2-5.png);
+    width:620px;
+    height:550px;
+
+}
 .section-5 .left{
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -221,8 +252,17 @@ h2{
 .section-6{
     display: flex;
     align-items: center;
+   
+
 }
+.section-6 .img{
+    background-image: url(/images/page-2-6.png);
+    width:620px;
+    height:550px;
+}
+
 .section-6 .right{
+    width: 50%;
     height: 300px;
     display: flex;
     flex-direction: column;
