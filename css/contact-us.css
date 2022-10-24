@@ -9,6 +9,10 @@ section {
 }
 
 /* --------------------------------- */
+.section-1 .main .top .left input{
+    border-radius: 10px;
+
+}
 .section-1 {
     display: flex;
     flex-direction: column;

@@ -7,6 +7,7 @@
 }
 
 .section-1 .left {
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,6 +38,22 @@
     align-items: center;
 }
 
+.section-1 .right {
+    background-image: url(/images/page-4-1.png);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 650px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+.section-1 .right .blend {
+    background-color: #f58a07;
+    mix-blend-mode: multiply;
+    width: 153px;
+    height: 650px;
+    border-radius: 20px 0px 0px 20px;
+}
 /* <-------------section-2----------------> */
 /* <-------------section-2----------------> */
 .cards {

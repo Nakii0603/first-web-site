@@ -16,13 +16,30 @@ h2{
 .section-1-0{
     margin-bottom: 0;
 }
+
 /* <-----------------------------> */
 /* <-----------------------------> */
-.orange{
-    max-width: 1400px;
-    width: 100%;
-    margin: auto;
+
+.section-1 .right {
+    background-image: url(/images/page-3.png);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 650px;
+    border-radius: 20px;
+    background-color: aqua;
 }
+
+.section-1 .right .blend {
+    background-color: #f58a07;
+    mix-blend-mode: multiply;
+    width: 153px;
+    height: 650px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+/* <-----------------------------> */
+/* <-----------------------------> */
+
 
 .section-2-or{
     position: relative;
@@ -77,8 +94,6 @@ h2{
     
 }
 
-
-
 /* <-----------------------------> */
 /* <-----------------------------> */
 .page-2 div{
@@ -88,12 +103,14 @@ h2{
 /* <-------------section-1----------------> */
 /* <-------------section-1----------------> */
 .section-1 {
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
 .section-1 .left {
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -297,6 +314,19 @@ h2{
     width: 100%;
     align-items: center;
     justify-content: space-between;
+}
+.section-7 .right{
+    background-image: url(/images/video-image.png);
+    width: 620px;
+    height: 501px;
+    position: relative;
+}
+.section-7 .right .video img{
+    top: 400px;
+    left: 50px;
+    position: absolute;
+    width: 160px;
+    height: 51px;
 }
 
 .section-7 .left {
